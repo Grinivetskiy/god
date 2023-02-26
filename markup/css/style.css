@@ -96,7 +96,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    padding: 47px 0 29px 35px;
+    padding: 30px 20px 30px 17px;
 }
 
 #main {
@@ -129,7 +129,7 @@ a {
     color: #FFFFFF;
 }
 
-.box_in_fon h3 {
+.box_in_fon p {
     margin: 0 0 25px 0;
     font-weight: 400;
     font-size: 14px;
@@ -152,10 +152,11 @@ a {
 }
 
 .fon_list {
+    padding: 0 0 80px;
     background: #E5E5E5;
 }
 
-.container>p {
+.container>h2 {
     float: left;
     padding: 57px 0 20px 7px;
     margin: 22px 21px 18px 0;
@@ -199,7 +200,7 @@ h4 {
     font-weight: 400;
 }
 
-.box_photo h2 {
+.box_photo p {
     display: block;
     font-weight: 500;
     font-size: 21px;
@@ -215,7 +216,7 @@ h4 {
 }
 
 .box {
-    margin: 100px 0 0 0;
+    margin: 20px 0 0;
     overflow: hidden;
 }
 
@@ -235,7 +236,7 @@ h4 {
     margin: 18px 0 0 46px;
 }
 
-.mail p {
+.mail h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -243,7 +244,7 @@ h4 {
 
 }
 
-.mail h3 {
+.mail p {
     margin: 0 0 25px 0;
     font-size: 14px;
     line-height: 20px;
@@ -251,7 +252,7 @@ h4 {
 }
 
 .mail input {
-    padding: 10px 37px 5px 0;
+    padding: 13px 18px 5px 23px;
     border-radius: 30px;
     margin-bottom: 33px;
 }
@@ -293,11 +294,12 @@ table {
 td {
     width: 278px;
     height: 119px;
+    border: 1px solid rgb(184, 180, 180);
 }
 
 .wite_fon {
-    background: #fffefe;
-    padding: 124px 0 0;
+    padding: 45px 0 0;
+    background: #d0cfcf;
 }
 
 .colum {
@@ -342,6 +344,7 @@ td {
 
 .icon {
     float: left;
+    padding: 26px 0 0;
 }
 
 .you {
@@ -367,7 +370,7 @@ td {
     line-height: 16px;
     width: 46px;
     height: 45px;
-    margin: 29px 5px 0px 5px;
+    margin: 0 5px 0px 5px;
 }
 
 .you a img {
@@ -384,10 +387,10 @@ td {
     line-height: 16px;
     width: 46px;
     height: 45px;
-    margin: 29px 10px 0px 9px;
+    margin: 0 5px 0px 5px;
 }
 
-.face>a>img {
+.face a img {
     padding: 12px 4px 0px 2px;
 }
 
@@ -401,11 +404,11 @@ td {
     line-height: 16px;
     width: 46px;
     height: 45px;
-    margin: 29px 5px 0px 5px;
+    margin: 0 5px 0px 5px;
 }
 
-.inst>a>img {
-    margin: 5px 0 0 0;
+.inst a img {
+    padding: 9px 2px 0 2px;
 }
 
 .best_store {
