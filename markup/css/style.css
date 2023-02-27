@@ -66,7 +66,7 @@ a {
 }
 
 .number {
-    margin: 0 42px 0 0;
+    margin: 0 38px 0 0;
     text-decoration: none;
 }
 
@@ -110,12 +110,14 @@ a {
     background-repeat: no-repeat;
     background-color: #F13C6E;
     overflow: hidden;
-    height: 604px;
+    height: auto;
+
 }
 
 
 
 .box_in_fon {
+    margin-bottom: 193px;
     max-width: 260px;
     margin-top: 190px;
     text-align: left;
@@ -130,16 +132,12 @@ a {
 }
 
 .box_in_fon p {
-    margin: 0 0 25px 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FFFFFF;
+    margin: 0 0 28px 0;
 }
 
 .btn_pink {
     display: inline-block;
-    padding: 11px 67px;
+    padding: 11px 50px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -152,14 +150,14 @@ a {
 }
 
 .fon_list {
-    padding: 0 0 80px;
+    padding: 0 0 78px;
     background: #E5E5E5;
 }
 
 .container>h2 {
     float: left;
     padding: 57px 0 20px 7px;
-    margin: 22px 21px 18px 0;
+    margin: 22px 21px 20px 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -167,7 +165,7 @@ a {
 }
 
 .box_photo {
-    width: 200px;
+    width: 255px;
     height: auto;
     margin: 0 auto;
     text-align: center;
@@ -177,7 +175,6 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 .list>li {
@@ -188,12 +185,14 @@ a {
     width: 255px;
 }
 
-.chair_photo {
-    padding: 26px 10px 0 0;
+.box_photo img {
+    width: 125px;
+    height: auto;
+    padding: 25px 0 0;
 }
 
-h4 {
-    margin: 13px 10px 15px 0;
+.box_photo h4 {
+    margin: 13px 10px 38px 0;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -201,14 +200,7 @@ h4 {
 }
 
 .box_photo p {
-    display: block;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: 0.05em;
-    color: #000000;
-    margin: 0 0 11px 0;
+    margin: 0 0 15px 0;
 }
 
 .box_photo>a {
@@ -251,15 +243,20 @@ h4 {
     color: #FFFFFF;
 }
 
-.mail input {
-    padding: 13px 18px 5px 23px;
+.mail form input {
+    padding: 8px 19px 8px 22px;
     border-radius: 30px;
     margin-bottom: 33px;
 }
 
 .photo_envelope {
     display: inline-block;
-    padding: 55px 45px 0 0;
+    padding: 55px 0 0;
+}
+
+.photo_car {
+    display: inline-block;
+    padding: 55px 50px 0 0;
 }
 
 .visit {
@@ -311,17 +308,15 @@ td {
 }
 
 .colum p {
-    padding: 0;
-    margin: 16px 0 28px 0;
     text-align: left;
+    margin: 19px 0 21px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 140.62%;
-    color: #000000;
 }
 
 .colum ul {
-    margin: 23px 0 42px 5px;
+    margin: 26px 0 42px;
     padding: 0;
     list-style: none;
     text-align: left;
@@ -349,11 +344,12 @@ td {
 
 .you {
     display: inline-block;
-    padding: 0 0 0 0;
+    padding: 0 5px 0 0;
 }
 
 .face {
     display: inline-block;
+    padding: 0 5px 0 0;
 }
 
 .inst {
@@ -374,7 +370,7 @@ td {
 }
 
 .you a img {
-    padding: 12px 4px 0px 2px;
+    padding: 14px 2px 0px 2px;
 }
 
 .face a {
@@ -391,10 +387,10 @@ td {
 }
 
 .face a img {
-    padding: 12px 4px 0px 2px;
+    padding: 14px 2px 0px 2px;
 }
 
-.inst {
+.inst a {
     display: inline-block;
     text-align: center;
     border: 2px solid #F13C6E;
@@ -408,7 +404,7 @@ td {
 }
 
 .inst a img {
-    padding: 9px 2px 0 2px;
+    padding: 14px 2px 0px 2px;
 }
 
 .best_store {
